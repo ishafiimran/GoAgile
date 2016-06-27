@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoAgile.UI", "GoAgile.UI\GoAgile.UI.csproj", "{F005F71D-7951-47D1-9BE9-ADE5F2B2E27A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoAgile.Data", "GoAgile.Data\GoAgile.Data.csproj", "{2BF7E196-0C4D-4502-A5E1-31CD7E0763FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoAgile.Services", "GoAgile.Services\GoAgile.Services.csproj", "{7106D0B5-5D2B-45ED-B7F3-07FA31D03841}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F005F71D-7951-47D1-9BE9-ADE5F2B2E27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F005F71D-7951-47D1-9BE9-ADE5F2B2E27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F005F71D-7951-47D1-9BE9-ADE5F2B2E27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F005F71D-7951-47D1-9BE9-ADE5F2B2E27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF7E196-0C4D-4502-A5E1-31CD7E0763FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF7E196-0C4D-4502-A5E1-31CD7E0763FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF7E196-0C4D-4502-A5E1-31CD7E0763FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF7E196-0C4D-4502-A5E1-31CD7E0763FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7106D0B5-5D2B-45ED-B7F3-07FA31D03841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7106D0B5-5D2B-45ED-B7F3-07FA31D03841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7106D0B5-5D2B-45ED-B7F3-07FA31D03841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7106D0B5-5D2B-45ED-B7F3-07FA31D03841}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

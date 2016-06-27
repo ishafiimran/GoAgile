@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html data-ng-app="goa">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/assets/css/site.css" rel="stylesheet" />
+    <link href="~/assets/css/site1.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @RenderBody()
+
+    <script src="~/assets/libs/other/jquery-1.10.2.min.js"></script>
+    <script src="~/assets/libs/other/jqueryui-1.10.3.min.js"></script>
+    <script src="~/assets/libs/other/bootstrap.min.js"></script>
+
+    <!-- vender scripts -->
+    <script src="~/assets/libs/angular/angular.min.js"></script>
+    <script src="~/assets/libs/angularui/angular-ui-router.js"></script>
+    <script src="~/assets/libs/angularui/ui-bootstrap-tpls-1.3.3.min.js"></script>
+
+    <!-- custom scripts -->
+    <script src="~/app/app.module.js"></script>
+    <script src="~/app/app.route.js"></script>
+
+    <script src="~/app/shared/services/apiService.js"></script>
+    <script src="~/app/shared/services/membershipService.js"></script>
+    <script src="~/app/shared/services/menuService.js"></script>
+
+    <script src="~/app/shared/controller/privateLayoutController.js"></script>
+
+    <script src="~/app/shared/directives/topMenuBar.directive.js"></script>
+    <script src="~/app/shared/directives/sideMenuBar.directive.js"></script>
+    <script src="~/app/shared/directives/pageHeader.directive.js"></script>
+
+    <script src="~/app/components/account/loginController.js"></script>
+    
+</body>
+</html>
