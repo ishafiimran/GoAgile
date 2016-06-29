@@ -20,11 +20,11 @@
             abstract: true,
             templateUrl: "/app/shared/layouts/privatelayout.html"
         })
-        .state("selectedtask", {
+        .state("selectedproject", {
             url: "",
             abstract: true,
             parent: "private",
-            templateUrl: "/app/shared/layouts/tasklayout.html"
+            templateUrl: "/app/shared/layouts/projectlayout.html"
         })
 
         //Account
@@ -60,9 +60,14 @@
         })
 
         //Projects
+        .state("project", {
+           url: "/projects",
+           parent: "private",
+           templateUrl: "/app/components/projects/projectList.html"
+        })
         .state("release", {
-            url: "/task/:id/release",
-            parent: "selectedtask",
+            url: "/project/:id/release",
+            parent: "selectedproject",
             templateUrl: "/app/components/release/release.html"
         })
 

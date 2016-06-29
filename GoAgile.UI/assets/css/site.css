@@ -85,6 +85,107 @@
     margin-left: 60px;
 }
 
+.projects {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.projects .project {
+    width: 100%;
+    height: 93px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.projects .project .avatar {
+    position: absolute;
+    top: 14px;
+    margin-left: 14px;
+}
+
+.avatar.avatar-lg {
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+}
+
+.cs-light.light, .cs-light .light {
+    background: whitesmoke;
+    color: #434343;
+}
+
+.light {
+    background: whitesmoke;
+    color: #434343;
+}
+
+.projects .project .avatar {
+    position: absolute;
+    top: 14px;
+    margin-left: 14px;
+}
+
+.projects .project .basic-info {
+    float: left;
+    margin-right: 20px;
+    margin-left: 130px;
+    width: 250px;
+}
+
+.projects .project .basic-info .title, .projects .project .basic-info .title a {
+    color: #666666;
+}
+.projects .project .basic-info .title {
+    font-size: 16px;
+    margin-top: 36px;
+    margin-bottom: 7px;
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.projects .project .backlog_items_count {
+    float: left;
+    margin-right: 100px;
+}
+
+.projects .project .backlog_items_count .value {
+    font-size: 27px;
+    margin-top: 26px;
+    margin-bottom: 2px;
+    color: #666666;
+    line-height: 1;
+}
+
+.projects .project .project_members_count, .projects .project .backlog_items_count {
+    float: left;
+}
+
+.projects .project .project_members_count .value, .projects .project .backlog_items_count .value {
+    font-size: 27px;
+    margin-top: 26px;
+    margin-bottom: 2px;
+    color: #666666;
+    line-height: 1;
+}
+
+.projects .project .actions {
+    line-height: 1;
+    font-size: 18px;
+    position: absolute;
+    right: 20px;
+    top: 38px;
+}
+
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
     .sidebar-nav .navbar .navbar-collapse {

@@ -10,10 +10,8 @@ namespace GoAgile.Services.Controllers
 {
     public class ProjectsController : ApiController
     {
-        GoAgileContext context;
         public ProjectsController()
         {
-            context = new GoAgileContext();
             //context.Projects
         }
         // GET api/<controller>

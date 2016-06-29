@@ -11,7 +11,7 @@
             var menuItems = [];
             menuItems.push({ title: "Dashboard", link:"dashboard"  });
 
-            if (userType == "1")
+            if (userType == "1" || true)
             {
                 menuItems.push({ title: "Projects", link: "projects" });
             }

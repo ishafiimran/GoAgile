@@ -1,5 +1,31 @@
-﻿<div class="row">
-    <div class="col-sm-12">
-        <h1 class="page-header">Projects</h1>
-    </div>
-</div>
+﻿<page-header title="Projects"></page-header>
+
+
+<ul class="projects">
+
+    <li class="project light">
+        <a class="avatar avatar-lg" ui-sref="^.project({projectId: projectResource.getData().id})" href="#/projects/15283">
+            <img src="../../../assets/img/project_avatar.jpg" />
+        </a>
+        <div class="basic-info">
+            <h3 class="title truncate">
+                <a ui-sref="^.project({projectId: projectResource.getData().id})" href="#/projects/15283">ITM</a>
+            </h3>
+            <div class="description truncate"></div>
+        </div>
+        <div class="backlog_items_count hidden-xs">
+            <div class="value">3</div>
+            <div class="title" translate="project.backlogItems">Backlog items</div>
+        </div>
+        <div class="project_members_count hidden-xs">
+            <div class="value">2</div>
+            <div class="title" translate="project.teamMembers">Team members</div>
+        </div>
+        <div class="actions hidden-xxs">
+            <a>
+                <i class="glyphicon glyphicon-cog"></i>
+            </a>
+        </div>
+    </li>
+
+</ul>
